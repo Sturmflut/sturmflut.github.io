@@ -1,0 +1,10 @@
+# Site settings
+title: Sturmi's blog
+email: 
+description: "Musings on various things."
+baseurl: ""
+url: "http://sturmflut.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
