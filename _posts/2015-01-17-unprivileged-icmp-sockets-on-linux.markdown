@@ -2,7 +2,7 @@
 layout: post
 title:  "Unprivileged ICMP sockets on Linux"
 date:   2015-01-17 12:17:31
-categories: jekyll update
+categories: Linux Ubuntu
 ---
 
 While working on a cheap [Network Scanner app for Ubuntu Touch][ubuntu-touch-network-scanner] I ran into the following problem.
