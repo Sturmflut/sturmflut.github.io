@@ -14,6 +14,23 @@ Calling `/bin/ping` from Qt/QML and parsing its output (see [the code][ubuntu-to
 The necessary code to send an ICMP ECHO packet to localhost is as follows ([see also][unprivileged-icmp]):
 
 {% highlight C %}
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <malloc.h>
+#include <string.h>
+
+#include <unistd.h>
+#include <errno.h>
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <netinet/ip_icmp.h>
+#include <arpa/inet.h>
+
+
 int main(int argc, char** argv)
 {
     struct sockaddr_in addr;

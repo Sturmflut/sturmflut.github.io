@@ -69,7 +69,24 @@
 
 <p>The necessary code to send an ICMP ECHO packet to localhost is as follows (<a href="https://github.com/Sturmflut/unprivileged-icmp">see also</a>):</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">**</span> <span class="n">argv</span><span class="p">)</span>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;stdlib.h&gt;</span>
+
+<span class="cp">#include &lt;malloc.h&gt;</span>
+<span class="cp">#include &lt;string.h&gt;</span>
+
+<span class="cp">#include &lt;unistd.h&gt;</span>
+<span class="cp">#include &lt;errno.h&gt;</span>
+
+<span class="cp">#include &lt;sys/types.h&gt;</span>
+<span class="cp">#include &lt;sys/socket.h&gt;</span>
+<span class="cp">#include &lt;arpa/inet.h&gt;</span>
+<span class="cp">#include &lt;netinet/in.h&gt;</span>
+<span class="cp">#include &lt;netinet/ip_icmp.h&gt;</span>
+<span class="cp">#include &lt;arpa/inet.h&gt;</span>
+
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">**</span> <span class="n">argv</span><span class="p">)</span>
 <span class="p">{</span>
     <span class="k">struct</span> <span class="n">sockaddr_in</span> <span class="n">addr</span><span class="p">;</span>
     <span class="k">struct</span> <span class="n">icmphdr</span> <span class="n">icmp_hdr</span><span class="p">;</span>
