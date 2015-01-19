@@ -31,11 +31,11 @@ In a perfect world, the network management service at the heart of the operating
 
 Sadly there are two problems:
 
-- As [jdstrand] pointed out on #ubuntu-touch, confined apps are not be allowed to talk to NetworkManager via D-Bus. They currently can, but it is considered a bug, because this way any app can mess with the network configuration.
+- As [jdstrand] pointed out on #ubuntu-touch, confined apps are not allowed to talk to NetworkManager via D-Bus. They currently can, but it is considered a bug, because this way any app can mess with the network configuration.
 
 - The default scan interval used by NetworkManager is extremely long (seems to be 15 seconds), and if the service is busy with other things, e.g. connecting to an access point, it will defer scans. This is unsuitable for a WiFi Analyzer.
 
-So what now? The proper way to communicate with the network management subsystem is the Ubuntu [connectivity-api]. It currently is limited to exactly two API calls (see [the source][connectivity-api-source]):
+So what now? The proper way to communicate with the network management subsystem is the Ubuntu [connectivity-api]. It is currently limited to exactly two API calls (see [the source][connectivity-api-source]):
 
 {% highlight C++ %}
 bool NetworkingStatus::online() const
