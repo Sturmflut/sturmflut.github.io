@@ -95,6 +95,8 @@ So the current setting on Ubuntu Touch is to allow access to every user, while t
 
 It would be nice if the feature was enabled on all distributions and devices, otherwise I have to build multiple code paths and let the application find out which one (unprivileged ICMP sockets or a call to `/bin/ping`) works in the given environment.
 
+If you have any ideas, you can usually find me on the FreeNode IRC.
+
 [ubuntu-touch-network-scanner]: https://github.com/Sturmflut/ubuntu-touch-network-scanner
 [ubuntu-touch-network-scanner-qprocess-implementation]: https://github.com/Sturmflut/ubuntu-touch-network-scanner/commit/854ef64b468299005dd0754c000455c7706b0bda
 [icmp-kernel-patch]: http://lwn.net/Articles/420800/

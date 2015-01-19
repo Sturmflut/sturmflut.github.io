@@ -44,6 +44,8 @@ bool NetworkingStatus::limitedBandwith() const
 
 It doesn't look like a WiFi Analyzer app could be built until somebody dramatically extends the connectivity-api and decreases NetworkManager's scan interval.
 
+If you have any ideas, you can usually find me on the FreeNode IRC.
+
 
 [github-floodit]: https://github.com/Sturmflut/ubuntu-touch-floodit
 [connectivity-api]: https://launchpad.net/connectivity-api
