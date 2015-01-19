@@ -1,9 +1,9 @@
 # Site settings
-title: Sturmi's blog
+title: Sturmflut's blog
 email: 
 description: "Musings on various things."
 baseurl: ""
-url: "http://sturmflut.github.io"
+url: "https://sturmflut.github.io/"
 
 # Build settings
 markdown: kramdown
