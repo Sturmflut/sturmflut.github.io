@@ -50,6 +50,11 @@ I propose the following additional API features:
 
 - A method to set the scan interval within a pre-defined range. The network management service may decide to adapt its scan interval to the current situation to save power, e.g. a longer interval when not currently connected and a short one when connected. A scanner app may require a short, constant interval.
 
+
+### Security/Privacy ###
+
+A hostile app may calculate the location of a user from the list of access points in range, and because of the short-range nature of WiFi this location will be quite accurate. I therefore propose that the first call to `scanResults()` triggers a system popup informing the user about possible privacy implications and asking for permission.
+
 The corresponding Launchpad bug report is [1415098][ubuntu-bug-connectivity-api-wifi-scanning]. As always you can find me on the FreeNode IRC.
 
 
