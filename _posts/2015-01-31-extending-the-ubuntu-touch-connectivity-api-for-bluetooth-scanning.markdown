@@ -50,5 +50,8 @@ I propose the following API functions:
 A hostile app may calculate the location of a user from the list of iBeacons in range, and because of the short-range nature of Bluetooth this location will be quite accurate. I therefore propose that the first call to `startScan()` triggers a system popup informing the user about possible privacy implications and asking for permission.
 
 
+The corresponding Launchpad bug report is [1416731][launchpad-bug-connectivity-api-bluetooth]. As always you can find me on the FreeNode IRC.
+
+
 [connectivity-api]: https://launchpad.net/connectivity-api
-[launchpad-bug-connectivity-api-bluetooth]: https://bugs.launchpad.net/connectivity-api/+bug/1415098
+[launchpad-bug-connectivity-api-bluetooth]: https://bugs.launchpad.net/connectivity-api/+bug/1416731
