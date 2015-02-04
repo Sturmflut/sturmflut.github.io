@@ -5,6 +5,8 @@ date:   2015-01-21 18:00:00
 categories: Linux Ubuntu
 ---
 
+***NOTE: This version has been obsoleted by [version 2]({% post_url 2015-02-04-installing-ubuntu-on-baytrail-tablets-version-2 %}).***
+
 I was asked to do a little writeup about how I [installed Ubuntu 15.04 on my Intel BayTrail tablet][softpedia]. I am short on time, so I'll just write down the most basic steps and do a full How-To later.
 
 The following instructions are based on [this article by John Wells][jwells-ubuntu-t100], but many things have changed since march 2014, so not every step listed in the original article is still necessary.
