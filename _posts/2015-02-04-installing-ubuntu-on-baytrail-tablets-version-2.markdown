@@ -239,9 +239,7 @@ $ sudo update-grub
 Now your device should boot into the Ubuntu installation on every boot. If it doesn't, try to fiddle with the boot order list. You can always boot into your installation by booting from the external USB storage medium and going through the GRUB console, as shown before.
 
 
-### Issues regarding the Lenovo ThinkPad Tablet 8
-
-Last time I worked on it, the following things did not work properly:
+As always you can find me on the FreeNode IRC.
 
 
 [gmane-linux-mmc-thinkpad-tablet-10]: http://www.spinics.net/lists/linux-mmc/msg30631.html
