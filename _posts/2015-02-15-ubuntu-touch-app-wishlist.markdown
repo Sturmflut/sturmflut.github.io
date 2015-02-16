@@ -311,5 +311,5 @@ The source code for the following apps is not available, and they often rely on 
 
 [kivy]: http://kivy.org/
 
-[love2d]: Love2D
+[love2d]: https://love2d.org/
 
