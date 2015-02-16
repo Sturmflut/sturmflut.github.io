@@ -6,6 +6,8 @@ categories: Ubuntu Touch
 ---
 
 
+***Update: Thanks to popey and Elleo for many corrections and additions. I also correlated this list with [the initial Ubuntu Touch QML app collection][app-collection].***
+
 Basic functionality is there, the most important APIs have been implemented, the first phone has been released and in about four weeks the first lucky users will get their phones. Time to fill the app store!
 
 Over the last couple of days I compiled the following wishlist. An entry on this list does not necessarily mean that I use the app myself, it just means that I have identified a need for it.
@@ -15,7 +17,7 @@ If you are looking for an app idea to implement, or are looking for a developer 
 
 
 
-## Clones of classic games
+## Clones/Ports of classic games
 
 - 4 in a row/Connect Four/etc.
 
@@ -27,27 +29,33 @@ If you are looking for an app idea to implement, or are looking for a developer 
 
 - Breakout
 
-- Card games
+- Card games (***Update: There is at least [Euchre][euchre]***).
 
-- Checkers and its variants (e.g. Chinese Checkers)
+- Checkers and its variants (e.g. Chinese Checkers) (***Update: There is an [initial version][launchpad-checkers]***).
 
 - [Gorillas][gorillas]
 
-- Mastermind
+- Mastermind (***Update: There is an [initial version][launchpad-mastermind]***).
 
 - Math games (basic algebra etc.)
 
-- Minesweeper
+- Memory. (***Update: There is an [initial version][launchpad-memories-touch].***)
+
+- Minesweeper (***Update: There is an [initial version][launchpad-minesweeper]***).
 
 - Monopoly (maybe with online multiplayer support?)
 
 - Risk
 
-- SameGame
+- Simon Tatham's Portable Puzzle Collection
+
+- [<s>SameGame</s>][samegame]
 
 - Snake
 
-- Tic-Tac-Toe
+- Space Defender
+
+- Tic-Tac-Toe. (***Update: There is an [initial version][noughts-and-crosses]***).
 
 - Trivial Pursuit. There was a digital version of the game once, with downloadable trivia question packages, maybe the file format could be reverse-engineered and the files loaded if the user provides them?
 
@@ -62,7 +70,11 @@ I think we need clones of these because Ubuntu Touch is too different from other
 
 - Audio/Video format converter
 
+- Audio Memo Recorder. Maybe this could be integrated in the Notes app somehow?
+
 - Backup. This is extremely important, phones store a lot of data and most users will get a new phone within less than three years, so backup and restore should be as painless as possible. It's a horror on Android, let's do better.
+
+- Business card scanner
 
 - A Camera app on par with the Google Camera App. I use the Panorama and Photo Sphere function quite often.
 
@@ -70,7 +82,9 @@ I think we need clones of these because Ubuntu Touch is too different from other
 
 - DLNA server to stream audio/video to the local network.
 
-- FTP/SCP/SFTP file transfer client, maybe built into the file manager? And with Content Hub support?
+- FTP/SCP/SFTP/SMB file transfer client, maybe built into the file manager? And with Content Hub support? (***Update: The File Manager is apparently getting some SMB support.***)
+
+- FM Radio
 
 - [Folder size][foldersize]
 
@@ -152,7 +166,11 @@ The source code for the following apps can mostly be found somewhere on the Inte
 
 - [Aard Dictionary][aard]. Aard allows you to read offline versions of many dictionaries and databases, e.g. Wikipedia, Wikivoyage, Wikiquote etc. I use it extensively when traveling. There are several open-source implementations of the libraries and frontends for different platforms, e.g. Android and Desktop Linux.
 
+- Comic Book Reader
+
 - Firefox
+
+- Native IRC client
 
 - [OsmAnd][osmand] (navigation with offline maps support). I use it extensively, not just abroad.
 
@@ -172,7 +190,7 @@ The source code for the following apps can mostly be found somewhere on the Inte
 
 
 
-## Ports of popular open source apps
+## Ports of popular closed source apps
 
 The source code for the following apps is not available, and they often rely on proprietary APIs, so we probably have to nag the authors.
 
@@ -180,9 +198,9 @@ The source code for the following apps is not available, and they often rely on 
 
 - Carsharing apps. A webapp may be enough, but I am not sure as I don't use Carsharing.
 
-- E-Learning for Languages and other areas.
+- E-Learning for Languages (Babbel, duolingo etc.) and other areas.
 
-- Fitness tracker apps like FitBit, FitApp, Runtastic etc.
+- Fitness tracker apps like FitBit, FitApp, Runtastic etc. (***Update: There is [uFit][ufit] in the store, and there is an initial version of [Trailblazer Workout Tracker][trailblazer].***)
 
 - Flipboard
 
@@ -200,9 +218,11 @@ The source code for the following apps is not available, and they often rely on 
 
 - Online Banking for multiple accounts.
 
+- [Prey][prey] or some other anti-theft system.
+
 - Public transportation apps like [DB Navigator][db-navigator] or [Handyticket.de][handyticket]. [fahrplan][fahrplan] already implements many things, but you can't e.g. buy tickets with it, which is one of my major use cases for a smartphone. At least Deutsche Bahn was well-known for also releasing their apps for more "exotic" platforms like Palm handhelds or Symbian devices, and lots of functionality in the Android app is just implemented as a web views, so there is a slight possibility for a somewhat native UT app.
 
-- Shazam or any other song recognition service.
+- Shazam or any other song recognition service. (***Update: There is [Eyrie][eyrie].***)
 
 - Skobbler. We will never get a native, full-featured Google Maps app anyway, and Skobbler might be a worthy replacement.
 
@@ -224,11 +244,39 @@ The source code for the following apps is not available, and they often rely on 
 
 
 
+## Ports of popular open source libraries and engines
+
+- [Kivy][kivy]
+
+- libSDL. This is already in the works.
+
+- [LÖVE][love2d]
+
+
+
+
+
+[app-collection]: https://wiki.ubuntu.com/Touch/Collection
+
 [tasker]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=de
 
 [bindoku]: https://play.google.com/store/apps/details?id=de.lochmann.bindoku
 
+[euchre]: https://appstore.bhdouglass.com/app/com.ubuntu.developer.robert-ancell.euchre
+
+[launchpad-checkers]: https://launchpad.net/checkers
+
 [gorillas]: http://en.wikipedia.org/wiki/Gorillas_%28video_game%29
+
+[launchpad-mastermind]: https://code.launchpad.net/~hansueli-burri/+junk/Mastermind
+
+[launchpad-memories-touch]: https://code.launchpad.net/~sebastijan-kuzner/memories-touch/trunk
+
+[launchpad-minesweeper]: https://launchpad.net/minesweeper-touch
+
+[samegame]: https://appstore.bhdouglass.com/app/com.ubuntu.developer.ken-vandine.samegame
+
+[noughts-and-crosses]: https://github.com/jamesodhunt/qml-noughts-and-crosses
 
 [foldersize]: https://play.google.com/store/apps/details?id=com.foldersize&hl=de
 
@@ -237,6 +285,12 @@ The source code for the following apps is not available, and they often rely on 
 [kennzeichen]: https://play.google.com/store/apps/details?id=flaotec.KFZ_Kennzeichen&hl=de
 
 [machines-vs-machines]: https://appstore.bhdouglass.com/app/com.ubuntu.developer.mzanetti.machines-vs-machines
+
+[ufit]: https://appstore.bhdouglass.com/app/com.ubuntu.developer.mzanetti.ubuntu-fitbit-app
+
+[trailblazer]: https://code.launchpad.net/~marin-bareta/trailblazer/main
+
+[prey]: https://preyproject.com/
 
 [aard]: http://aarddict.org/
 
@@ -248,6 +302,14 @@ The source code for the following apps is not available, and they often rely on 
 
 [osmand]: http://osmand.net/
 
+[eyrie]: https://appstore.bhdouglass.com/app/com.mikeasoft.eyrie
+
 [speedtest]: http://www.speedtest.net/
 
 [videolan]: http://www.videolan.org/vlc/
+
+
+[kivy]: http://kivy.org/
+
+[love2d]: Love2D
+
