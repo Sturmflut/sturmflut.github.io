@@ -100,18 +100,21 @@ I think we need clones of these because Ubuntu Touch is too different from other
 
 - [Folder size][foldersize]
 
+- Network scanner like Fing (***Update:*** mzanetti has an [initial implementation][netscan-launchpad] on top of nmap
+
 - Podcast client (***Update:*** [Podbird][podbird-appexplorer] does the job.)
 
 - [TCP/IP network scanner]({% post_url 2015-01-17-unprivileged-icmp-sockets-on-linux %}) (as soon as the situation regarding unprivileged ICMP sockets has been resolved)
 
-- [WiFi scanner]({% post_url 2015-01-30-extending-the-ubuntu-touch-connectivity-api-for-wifi-scanning %}) (as soon as the connectivity-api exposes the necessary functionality)
+- WiFi scanner. There are two approaches to this: You can install mzanetti's [OpenStore][openstore] and run his [WiFi Scanner][wifiscanner-openstore] on a vivid device, or you can wait until the connectivity-api allows the implementation of an unconfined [WiFi scanner]({% post_url 2015-01-30-extending-the-ubuntu-touch-connectivity-api-for-wifi-scanning %}).
 
 - [BlueTooth scanner]({% post_url 2015-01-31-extending-the-ubuntu-touch-connectivity-api-for-bluetooth-scanning %}) (as soon as the connectivity-api exposes the necessary functionality)
 
 - [Mobile network scanner]({% post_url 2015-01-31-extending-the-ubuntu-touch-connectivity-api-for-mobile-network-scanning %}) (as soon as the connectivity-api exposes the necessary functionality)
+
 - Simple video editor
 
-- Task automation like [Tasker][tasker]
+- Task automation like [Tasker][tasker] (***Update:*** mzanetti has an [initial implementation][guh-github] which would need an UI and some phone-related plugins.)
 
 - Two-Factor authenitication (***Update:*** [Authenticator][authenticator-appexplorer] has been in the store for a long time.)
 
@@ -235,7 +238,7 @@ The source code for the following apps is not available, and they often rely on 
 
 - Google Goggles
 
-- Google Hangouts or a replacement. WebRTC might be an option.
+- Google Hangouts or a replacement. WebRTC might be an option, or the [native SailfishOS client][hangouts-sailfish-github] by Daniele Rogora.
 
 - Google Sky Map (***Update:*** There is [Réaltaí][realtai-appexplorer].)
 
@@ -374,13 +377,20 @@ The source code for the following apps is not available, and they often rely on 
 [noughts-and-crosses]: https://github.com/jamesodhunt/qml-noughts-and-crosses
 [zttt-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.roman2861.zttt
 
+[guh-github]: https://github.com/guh/guh/wiki
+
 [authenticator-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.mzanetti.ubuntu-authenticator
 
 [uradio-appexpplorer]: https://uappexplorer.com/app/uradio.rubenxparra
 
 [foldersize]: https://play.google.com/store/apps/details?id=com.foldersize
 
+[netscan-launchpad]: https://code.launchpad.net/~mzanetti/+junk/netscan
+
 [podbird-appexplorer]: https://uappexplorer.com/app/com.mikeasoft.podbird
+
+[openstore]: http://notyetthere.org/openstore-tweakgeek-and-more/
+[wifiscanner-openstore]: http://notyetthere.org/openstore/v1/wifiscanner.mzanetti_0.1_armhf.click
 
 [gefahrguthelfer]: https://play.google.com/store/apps/details?id=at.knorre.dangerousgoods
 
@@ -423,6 +433,8 @@ The source code for the following apps is not available, and they often rely on 
 [flipboard-appexplorer]: https://uappexplorer.com/app/flipboardcom-ldp.alci
 
 [tanken-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.derjasper.tanken
+
+[hangouts-sailfish-github]: https://github.com/rogora/hangish
 
 [realtai-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.doflah.realtai
 
