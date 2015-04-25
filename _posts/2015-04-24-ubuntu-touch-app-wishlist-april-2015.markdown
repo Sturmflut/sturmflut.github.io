@@ -283,7 +283,7 @@ The source code for the following apps is not available, and they often rely on 
 
 - WerStreamt.es? ("Who streams it?"), tells you which video streaming provider offers your favourite content.
 
-- WhatsApp. I don't like it, and most smartphones have the power to run both WhatsApp and Telegram at the same time, so you can probably talk most of your friends into installing Telegram, but when Ubuntu Touch devices become generally available the lack of a WhatsApp client will become problematic. And no, WhatsApp Web is not a solution.
+- WhatsApp. I don't like it, and most smartphones have the power to run both WhatsApp and Telegram at the same time, so you can probably talk most of your friends into installing Telegram, but when Ubuntu Touch devices become generally available the lack of a WhatsApp client will become problematic. And no, [WhatsApp Web is not a solution]({% post_url 2015-02-01-recipe-for-an-ubuntu-touch-whatsapp-webapp %}).
 
 - Wikitude
 
