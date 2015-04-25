@@ -20,13 +20,15 @@ If you are looking for an app idea to implement or are looking for a developer w
 
 - [Car Finder][android-carfinder]
 
-- Bubble level (there is [Level][level-appexplorer])
+- Bubble level (***Update:*** There is [Level][level-appexplorer].)
 
 - Metal detector (...if [this][android-metal] can be taken seriously)
 
+- Metronome (***Update:*** There is [uMetronome][uMetronome-appexplorer].)
+
 - [Sound Meter][android-soundmeter] (with calibration profiles for known devices)
 
-- Torch (there is [uTorch][utorch-appexplorer])
+- Torch (***Update:*** There is [uTorch][utorch-appexplorer].)
 
 
 
@@ -38,7 +40,7 @@ If you are looking for an app idea to implement or are looking for a developer w
 | 4 in a row/Connect Four/etc. | | | [Connect Four][android-connectfour]
 | Backgammon | | | [Backgammon Plus][android-backgammonplus]
 | Battleships | | | [Sea Battle][android-seabattle]
-| Bindoku (Binary Sudoku) | | | [Link][bindoku]
+| Bindoku (Binary Sudoku) | | | [Bindoku][bindoku]
 | Breakout | | | [ArkaBall free][android-arkaball]
 | Card games | [Euchre][euchre-launchpad], [Pairs][pairs-launchpad] | [Euchre][euchre], [Pairs][pairs-appexplorer], [Blackjack][blackjack-appexplorer]
 | Checkers and variants (Chinese Checkers etc.) | [Checkers][launchpad-checkers]
@@ -84,6 +86,8 @@ I think we need clones of these because Ubuntu Touch is too different from other
 
 - A Camera app on par with the Google Camera App. I use the Panorama and Photo Sphere functions quite often.
 
+- Desktop integration like AirDroid. Transfer files between desktop and phone, show phone notifications on the desktop, write SMS from the desktop etc.
+
 - Native clients for all major cloud file sync services (Syncthing, ownCloud, DropBox, MEGA etc.)
 
 - DLNA client to stream audio/video from the local network. This should probably be built into the Media Player?
@@ -96,7 +100,7 @@ I think we need clones of these because Ubuntu Touch is too different from other
 
 - [Folder size][foldersize]
 
-- Desktop integration like AirDroid. Transfer files between desktop and phone, show phone notifications on the desktop, write SMS from the desktop etc.
+- Podcast client (***Update:*** [Podbird][podbird-appexplorer] does the job.)
 
 - [TCP/IP network scanner]({% post_url 2015-01-17-unprivileged-icmp-sockets-on-linux %}) (as soon as the situation regarding unprivileged ICMP sockets has been resolved)
 
@@ -108,6 +112,8 @@ I think we need clones of these because Ubuntu Touch is too different from other
 - Simple video editor
 
 - Task automation like [Tasker][tasker]
+
+- Two-Factor authenitication (***Update:*** [Authenticator][authenticator-appexplorer] has been in the store for a long time.)
 
 - Web Radio client (***Update:*** There are some, like [uRadio][uradio-appexpplorer].)
 
@@ -133,7 +139,7 @@ These apps could probably be ported, but they are so simple that they can be eas
 
 I think some of them already have an HTML5 version, so they could possibly be ported as fast as Cut the Rope.
 
-- Angry Birds (***Update:*** There is a [webapp][angrybirds-appexplorer])
+- Angry Birds (***Update:*** There is a [webapp][angrybirds-appexplorer].)
 
 - Bio. Inc/Plague Inc./Biotix etc.
 
@@ -205,6 +211,8 @@ The source code for the following apps can mostly be found somewhere on the Inte
 
 The source code for the following apps is not available, and they often rely on proprietary APIs, so we probably have to nag the authors.
 
+- Bandsintown. A webapp will not be enough since the app can scan the music files on your device and discover your favourite bands this way.
+
 - Booking.com, Airbnb, Kayak, EBookers and friends. There are webapps, but native apps come with useful features like offline support.
 
 - Carsharing apps. A webapp may be enough, but I am not sure as I don't use Carsharing.
@@ -249,7 +257,7 @@ The source code for the following apps is not available, and they often rely on 
 
 - Secure Online Banking for multiple accounts.
 
-- Personal finance management (***Update:*** There is [Chancho][chancho-appexplorer]
+- Personal finance management (***Update:*** There is [Chancho][chancho-appexplorer].)
 
 - [Prey][prey] or some other anti-theft system.
 
@@ -269,7 +277,7 @@ The source code for the following apps is not available, and they often rely on 
 
 - TripAdvisor: There is a webapp, but the native app can download content for offline use.
 
-- Uber/MyTaxi/etc.
+- Uber/MyTaxi/etc. (***Update:*** There is [Uber][uber-appexplorer].)
 
 - WeChat for chinese users.
 
@@ -307,6 +315,8 @@ The source code for the following apps is not available, and they often rely on 
 [level-appexplorer]: https://uappexplorer.com/app/level.mhall119
 
 [android-metal]: https://play.google.com/store/apps/details?id=kr.sira.metal
+
+[uMetronome-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.monichols.umetronome
 
 [android-soundmeter]: https://play.google.com/store/apps/details?id=kr.sira.sound
 
@@ -364,9 +374,13 @@ The source code for the following apps is not available, and they often rely on 
 [noughts-and-crosses]: https://github.com/jamesodhunt/qml-noughts-and-crosses
 [zttt-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.roman2861.zttt
 
+[authenticator-appexplorer]: https://uappexplorer.com/app/com.ubuntu.developer.mzanetti.ubuntu-authenticator
+
 [uradio-appexpplorer]: https://uappexplorer.com/app/uradio.rubenxparra
 
 [foldersize]: https://play.google.com/store/apps/details?id=com.foldersize
+
+[podbird-appexplorer]: https://uappexplorer.com/app/com.mikeasoft.podbird
 
 [gefahrguthelfer]: https://play.google.com/store/apps/details?id=at.knorre.dangerousgoods
 
@@ -383,14 +397,13 @@ The source code for the following apps is not available, and they often rely on 
 [prey]: https://preyproject.com/
 
 [aard]: http://aarddict.org/
+[sturmflut-cslob]: https://github.com/Sturmflut/cslob
 
 [db-navigator]: http://www.bahn.de/p/view/buchung/mobil/db-navigator.shtml
 
 [handyticket]: https://www.handyticket.de/
 
 [fahrplan]: https://uappexplorer.com/app/com.ubuntu.developer.mzanetti.fahrplan2
-
-[sturmflut-cslob]: https://github.com/Sturmflut/cslob
 
 [osmand]: http://osmand.net/
 
@@ -431,6 +444,8 @@ The source code for the following apps is not available, and they often rely on 
 [eyrie]: https://uappexplorer.com/app/com.mikeasoft.eyrie
 
 [speedtest]: http://www.speedtest.net/
+
+[uber-appexplorer]: https://uappexplorer.com/app/uber-ubuntu.daniel-mcguire351
 
 [videolan]: http://www.videolan.org/vlc/
 
