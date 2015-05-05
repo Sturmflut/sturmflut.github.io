@@ -58,7 +58,7 @@ The following tests are currently offered on my device:
 * Main Camera: Take a picture using the main camera.
 * Sub Camera: Take a picture using the front-facing sub camera.
 * Strobe: Flashes the LED strobe.
-* GPS: Tries to get a GPS fix and allows to restart the GPS in "Hot" or "Cold" mode. Obviously doesn't use AGPS, it took about 190 seconds to get a fix on my first try. When a fix is acquired, the string "fiexd" is shown and the "TTFF(s)" value stops updating, see the screenshot below.
+* GPS: Tries to get a GPS fix and allows to restart the GPS in "Hot" or "Cold" mode. Obviously doesn't use A-GPS, it took about 190 seconds to get a fix on my first try. When a fix is acquired, the string "fixed" is shown and the "TTFF(s)" value stops updating, see the screenshot below.
 * FM Radio: Tunes the FM radio to 88, 98.7 or 108 MHz if the headset is plugged in.
 * Bluetooth: Will initialize Bluetooth and start a scan for nearby devices.
 * Wi-Fi: Starts the WiFi module and starts scanning, but seems to always return with "no suitable AP". Probably needs a special, preconfigured WiFi accesspoint.
