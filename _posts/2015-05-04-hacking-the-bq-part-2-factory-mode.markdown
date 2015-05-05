@@ -5,6 +5,9 @@ date:   2015-05-04 23:00:00
 categories: Ubuntu bq
 ---
 
+*UPDATE 5.5.2015: Thanks to Simos Xenitellis for finding out how the WiFi test works.*
+
+
 The bq Aquaris E4.5 Ubuntu Edition has a "hidden" Factory Mode. You can access it by doing the following:
 
 * Power off the device
@@ -61,7 +64,7 @@ The following tests are currently offered on my device:
 * GPS: Tries to get a GPS fix and allows to restart the GPS in "Hot" or "Cold" mode. Obviously doesn't use A-GPS, it took about 190 seconds to get a fix on my first try. When a fix is acquired, the string "fixed" is shown and the "TTFF(s)" value stops updating, see the screenshot below.
 * FM Radio: Tunes the FM radio to 88, 98.7 or 108 MHz if the headset is plugged in.
 * Bluetooth: Will initialize Bluetooth and start a scan for nearby devices.
-* Wi-Fi: Starts the WiFi module and starts scanning, but seems to always return with "no suitable AP". Probably needs a special, preconfigured WiFi accesspoint.
+* Wi-Fi: Starts the WiFi module and starts scanning for open accesspoints, then connects to the first one it finds.
 * USB: Checks if the USB port is connected in slave mode.
 * OTG: Displays the current USB-On-the-Go status, e.g. if the device is acting as a slave or a host.
 * Battery & Charger: Displays extensive information about the battery and charger, e.g. voltage, temperature, current and PMIC chip status.
