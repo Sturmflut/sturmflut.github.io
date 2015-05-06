@@ -131,7 +131,7 @@ There are currently about 44.000 files in there, so if you're interested just us
 ## Custom tarball
 
 
-Canonical promised their partners that an Ubuntu Touch device can be customised to set each device apart from the others. This enables a manufacturer to ship additional files, apps and scopes with the default installation of a device, for example the bq Aquaris E4.5 Ubuntu Edition came with the Nokia HERE locataion provider (codenamed "espoo"), the Aquaris ringtone, a "NearBy" scope and a free copy of the "Cut the Rope" game, all goodies currently not available on other phones.
+Canonical promised their partners that an Ubuntu Touch device can be customised to set each device apart from the others. This enables a manufacturer to ship additional files, apps and scopes with the default installation of a device, for example the bq Aquaris E4.5 Ubuntu Edition came with the Nokia HERE location provider (codenamed "espoo"), the Aquaris ringtone, a "NearBy" scope and a free copy of the "Cut the Rope" game, all goodies currently not available on other phones.
 
 In the end it's just a set of files which are extracted to the internal device memory after all other steps have been finished, extending the default installation.
 
