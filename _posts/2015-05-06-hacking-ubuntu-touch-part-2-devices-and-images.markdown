@@ -143,7 +143,7 @@ Did you know that you can just bundle your own `custom` tarball, and that `ubunt
 ## Signing keys
 
 
-There are actually two more files which are part of an image, but they are common to all images and are downloaded by `ubuntu-device-flash` in the background: the cryptographic signing keys. There are two keyrings stored in `~/.cache/ubuntuimages/gpg/`, containing the followiing keys:
+There are actually two more files which are part of an image, but they are common to all images and are downloaded by `ubuntu-device-flash` in the background: the cryptographic signing keys. There are two keyrings stored in `~/.cache/ubuntuimages/gpg/`, containing the following keys:
 
 {% highlight text %}
 $ tar -xvf image-signing.tar.xz keyring.gpg -O | gpg --import
