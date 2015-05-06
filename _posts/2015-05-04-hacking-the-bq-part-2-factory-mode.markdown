@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hacking the bq, Part 2: Factory Mode"
-date:   2015-05-04 23:00:00
+date:   2015-05-04 21:00:00
 categories: Ubuntu bq
 ---
 
