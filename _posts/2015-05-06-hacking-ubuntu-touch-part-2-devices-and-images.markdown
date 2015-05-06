@@ -7,6 +7,8 @@ categories: Ubuntu Touch
 
 *NOTE: This is a continuation of the [previous article]({% post_url 2015-05-05-hacking-ubuntu-touch-part-1-ubuntu-device-flash %}) in the series.*
 
+*UPDATE 06.05.2015: Added section about signing keys.*
+
 We now know how to work with `ubuntu-device-flash` to find, download and flash images. But what does an image actually contain? Let's look at the information for the most recent image for the bq Aquaris E4.5 Ubuntu Edition as obtained in the previous article:
 
 
@@ -136,6 +138,24 @@ Canonical promised their partners that an Ubuntu Touch device can be customised 
 In the end it's just a set of files which are extracted to the internal device memory after all other steps have been finished, extending the default installation.
 
 Did you know that you can just bundle your own `custom` tarball, and that `ubuntu-device-flash touch` has a `--custom-tarball=` parameter? This is where your modding skills come in, kids! I wonder if someone could make a "super" custom tarball, containing all the goodies from all device manufacturers at the same time...
+
+
+## Signing keys
+
+
+There are actually two more files which are part of an image, but they are common to all images and are downloaded by `ubuntu-device-flash` in the background: the cryptographic signing keys. There are two keyrings stored in `~/.cache/ubuntuimages/gpg/`, containing the followiing keys:
+
+{% highlight text %}
+$ tar -xvf image-signing.tar.xz keyring.gpg -O | gpg --import
+
+gpg: key 1F1A58EA: "Ubuntu System Image Signing Key (2013) <system-image@ubuntu.com>" not changed
+gpg: key B4B1D353: "Ubuntu System Image Signing Key (2014) <system-image@ubuntu.com>" not changed
+
+
+$ tar -xvf image-master.tar.xz keyring.gpg -O | gpg --import
+
+gpg: key D265EACD: public key "Ubuntu System Image Master Signing Key <system-image@ubuntu.com>" imported
+{% endhighlight %}
 
 
 
