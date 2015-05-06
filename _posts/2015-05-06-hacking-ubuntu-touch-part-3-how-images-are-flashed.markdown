@@ -142,7 +142,7 @@ recovery filesystem table
 ## The "system-image-upgrader does the work" part
 
 
-`system-image-upgrader` interprets the commands from the `/cache/recovery/ubuntu_command` commands file. I've written about this file a couple of times already and now is the moment to look at it.
+`system-image-upgrader` interprets the commands from the `/cache/recovery/ubuntu_command` commands file. I've written about this file a couple of times already, and now is the moment to look at it.
 
 {% highlight text %}
 ~ # cat /cache/recovery/ubuntu_command.applying
@@ -178,6 +178,6 @@ This is pretty much what one would expect, but I'll explain the steps:
 
 8. The `system` partition is unmounted.
 
-At this time the phone is fully flashed and the system reboots into normal mode.
+At this time the phone is fully flashed and the system reboots normally.
 
 If you know better and/or something has changed, please find me on Launchpad.net and do get in contact!
