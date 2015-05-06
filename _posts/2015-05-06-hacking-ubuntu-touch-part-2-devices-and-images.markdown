@@ -19,7 +19,7 @@ Version: 22
 
 Channel: ubuntu-touch/rc/bq-aquaris.en
 Files:
- 0 https://system-image.ubuntu.com/pool/ubuntu-d2dfa371c65640e688fd9272b3ede7dbddbfed27f548a0d988c083b1d1c78158.tar.xz 300609184 e7165fc250eb960bc519ff3e564701a6abd49c32aaa3144b32411881c2bf1eec                                                                       
+ 0 https://system-image.ubuntu.com/pool/ubuntu-d2dfa371c65640e688fd9272b3ede7dbddbfed27f548a0d988c083b1d1c78158.tar.xz 300609184 e7165fc250eb960bc519ff3e564701a6abd49c32aaa3144b32411881c2bf1eec
  1 https://system-image.ubuntu.com/pool/device-0142302186687e3e48e6987283f6caf5d471a4160f98aa6a3cb7658f96471297.tar.xz 70683616 03603360f1259d57c4cd7fdab3624ea57350b01647062de7d229aa2d0df4e17b
  2 https://system-image.ubuntu.com/pool/custom-80897f6b2dbcbc12a01735e0fc965a6cc2cdb346f1da05b919406a7790565523.tar.xz 63334536 aee001c435d14c7a52c1cf63ff37771a84ecca9ecb85a2ac6f9d7aaaf403cc3c
  3 https://system-image.ubuntu.com/ubuntu-touch/rc/bq-aquaris.en/krillin/version-22.tar.xz 376 424fc2eb690ad52229ffc66120bf3d46d5398909d0ce53cbfc1b4513193a993e
