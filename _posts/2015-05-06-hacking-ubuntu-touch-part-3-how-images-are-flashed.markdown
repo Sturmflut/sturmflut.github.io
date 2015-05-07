@@ -120,7 +120,7 @@ crw-------  1 root   root          237,  18 May  6 12:50 bmtpool
 {% endhighlight %}
 
 
-Of all these partitions, only three (the first entry is a ramdisk and the "emmc" ones are fake devices) are used as actual filesystems, namely `mmcblk0p6` and `mmcblk0p7`:
+Of all these partitions, only three (the first entry is a ramdisk and the "emmc" ones are fake devices) are used as actual filesystems, namely `mmcblk0p5`, `mmcblk0p6` and `mmcblk0p7`:
 
 
 {% highlight text %}
