@@ -5,7 +5,7 @@ date:   2015-05-08 20:30:00
 categories: Ubuntu Touch
 ---
 
-*NOTE: This is a continuation of the series, but it does not rely on the previous articles. Thanks to Oliver Grawert for pointing out the bug report about the banner string.*
+*NOTE: This is a continuation of the [series]({% post_url 2015-05-07-hacking-ubuntu-touch-index %}) , but it does not rely on the previous articles. Thanks to Oliver Grawert for pointing out the bug report about the banner string.*
 
 *NOTE: Most information in this article was reverse-engineered by reading the original source code and using strace, tcpdump and WireShark. This is neither a reference nor complete.*
 
