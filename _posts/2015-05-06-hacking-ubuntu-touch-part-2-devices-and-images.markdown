@@ -5,7 +5,7 @@ date:   2015-05-06 20:00:00
 categories: Ubuntu Touch
 ---
 
-*NOTE: This is a continuation of the [previous article]({% post_url 2015-05-05-hacking-ubuntu-touch-part-1-ubuntu-device-flash %}) in the series.*
+*NOTE: This is a continuation of the [previous article]({% post_url 2015-05-05-hacking-ubuntu-touch-part-1-ubuntu-device-flash %}) in the [series]({% post_url 2015-05-07-hacking-ubuntu-touch-index %}).*
 
 *UPDATE 06.05.2015: Added section about signing keys.*
 
@@ -79,7 +79,9 @@ Let's look at what the individual tarballs contain.
 
 Phones and tablets are different from personal computers and servers because they are embedded platforms, which are usually short on memory and processing power. Also the hardware setup is pretty much the same all the time and doesn't change, with the exception of USB, but the number of supported USB devices is also limited. So it doesn't make sense to enable every possible kernel feature and ship every available driver like the normal Ubuntu Desktop and Server flavors do.
 
-On non-x86 platforms (especially ARM) a second problem arises: There is no standardised way to boot a system and to find out what the hardware looks like. So you can't build a generic kernel that would run on more than one ARM board at the same time because every board is different from the others and the kernel has no way to find out what to do - there's no BIOS, UEFI, DMI, ACPI etc. You have to manually craft a matching kernel for the exact board you're working with, and in many cases you also have to craft a matching bootloader (usually U-Boot) for the exact board. There are some solutions for this, namely DeviceTree, and future ARM64 systems will support UEFI and ACPI. But Android has set a quasi-standard for these environments and most Ubuntu Touch devices will just be repurposed Android models, so it will probably be a long time before our phones look like our personal computers and we can just install a generic, non-modified Ubuntu on any device without having to think about the hardware.
+On non-x86 platforms (especially ARM) a second problem arises: There is no standardised way to boot a system and to find out what the hardware looks like. So you can't build a generic kernel that would run on more than one ARM board at the same time because every board is different from the others and the kernel has no way to find out what to do - there's no BIOS, UEFI, DMI, ACPI etc. You have to manually craft a matching kernel for the exact board you're working with, and in many cases you also have to craft a matching bootloader (usually U-Boot) for the exact board.
+
+There are some solutions for this, mainly DeviceTree, and future ARM64 systems will support UEFI and ACPI. But Android has set a quasi-standard for these environments and most Ubuntu Touch devices will just be repurposed Android models, so it will probably be a long time before our phones look like our personal computers and we can just install a generic, non-modified Ubuntu on any device without having to think about the hardware.
 
 Now what does the device tarball contain?
 
