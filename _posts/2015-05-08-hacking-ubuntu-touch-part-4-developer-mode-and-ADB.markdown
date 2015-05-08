@@ -12,7 +12,7 @@ categories: Ubuntu Touch
 
 So you want to become a power user and do something with your phone that is not (yet) possible, or you are an application developer who wants to test his app on the real device. Some of you may try to debug an issue at the core of the device, and a few - like me - want to completely hack the system. Great idea!
 
-The only problem is that Ubuntu Touch devices, like the bq Aquaris E4.5 Ubuntu Edition, are locked down by default for security purposes. The only "standard" way to access the system core is the Terminal app. You don't want to type all your commands in that tiny little window, and what about transfering system files or automating things? MTP only shares user data via USB, not the rest of the system files and directories. There is no SSH daemon running by default. How do you even install and test your new app on a phone?
+The only problem is that Ubuntu Touch devices, like the bq Aquaris E4.5 Ubuntu Edition, are locked down by default for security purposes. The only "standard" way to access the system core is the Terminal app. You don't want to type all your commands in that tiny little window, and what about transfering system files or automating things? MTP only shares user data via USB, not the rest of the system files or directories. There is no SSH daemon running by default. How do you even install and test your new app on a phone?
 
 Developer mode to the rescue!
 
