@@ -18,4 +18,4 @@ I've written a series on the internals of Ubuntu Touch and how to hack the bq Aq
 
 * [Hacking Ubuntu Touch, Part 3: How images are flashed]({% post_url 2015-05-06-hacking-ubuntu-touch-part-3-how-images-are-flashed %})
 
-
+* [Hacking Ubuntu Touch, Part 4: Developer mode and ADB]({% 2015-05-08-hacking-ubuntu-touch-part-4-developer-mode-and-ADB %})
