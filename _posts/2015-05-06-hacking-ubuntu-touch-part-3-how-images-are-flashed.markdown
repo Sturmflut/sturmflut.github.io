@@ -5,7 +5,9 @@ date:   2015-05-06 20:30:00
 categories: Ubuntu Touch
 ---
 
-*NOTE: This is a continuation of the [previous article]({% post_url 2015-05-06-hacking-ubuntu-touch-part-2-devices-and-images %}) in the series. Thanks to Barry Warsaw, Oliver Grawert, Jani Monoses and Ondrej Kubik from Canonical for their assistance.*
+*NOTE: This is a continuation of the [previous article]({% post_url 2015-05-06-hacking-ubuntu-touch-part-2-devices-and-images %}) in the [series]({% post_url 2015-05-07-hacking-ubuntu-touch-index %}). Thanks to Barry Warsaw, Oliver Grawert, Jani Monoses and Ondrej Kubik from Canonical for their assistance.*
+
+*UPDATE 07.05.2015: Thanks to Barry Warsaw for pointing out why the `version` archive has to be unpacked to the phone.*
 
 
 We now know what an image is and what it looks like on the inside, but at this point you may wonder: How do all these binary blobs, the ext4 filesystem image and the custom tarball get flashed into device memory? What does ubuntu-device-flash do with them and what happens during the process?
@@ -170,11 +172,11 @@ This is pretty much what one would expect, but I'll explain the steps:
 
 4. The `ubuntu` archive is unpacked to `/` and validated against its signature. If you've wondered why all the contents of the archive is in a `system/` sub-directory, this is why: It has to end up in `/system` inside the Recovery  Environment.
 
-5. The `device` archive is unpacked to `/` and validated against its signature. We've looked at this archive in the previous article, and we know that it contains binary blob images (`uboot.img`, `recovery.img` and `boot.img`) besides an Android bit container. It will probably be surprising for many that those binary blobs are written to their respective partitions in this step as well! So the `unpack` command also includes flashing!
+5. The `device` archive is unpacked to `/` and validated against its signature. We've looked at this archive in the previous article, and we know that it contains binary blob images (`uboot.img`, `recovery.img` and `boot.img`) besides an Android bit container. It will probably be surprising for many that those binary blobs are written to their respective partitions in this step as well! So the `unpack` command also includes flashing raw images to partitions!
 
 6. The `custom` archive is unpacked to `/` and validated against its signature.
 
-7. The `version` archive is unpacked to `/` and validated against its signature. I am not sure why this is necessary, as we've seen in the previous article that it only contains two small metadata files.
+7. The `version` archive is unpacked to `/` and validated against its signature. This is necessary because the system-image client on the device, which will later care about OTA updates, needs the metadata to know wich image server to download from, which channel to use etc.
 
 8. The `system` partition is unmounted.
 
