@@ -25,12 +25,12 @@ Method 1: Boot into the Bootloader and execute the "FASTBOOT" entry.
 
 Method 2: To access the Bootloader Menu using an attached computer, while the device is powered on:
 
-* Make sure the phone is in developer mode
-* Make sure `adb devices` lists the device
+* Make sure the phone is in [developer mode]({% post_url 2015-05-08-hacking-ubuntu-touch-part-4-developer-mode-and-ADB %})
+* Make sure `adb devices` lists the phone
 * Run `adb reboot bootloader`
-* Make sure `fastboot devices` lists the device
+* Make sure `fastboot devices` lists the phone
 
-Method 3: Turn the device off and then press all three keys (POWER, VOLUME UP and VOLUME DOWN) until the display turns on (about three seconds).
+Method 3: Turn the phone off and then press all three keys (POWER, VOLUME UP and VOLUME DOWN) until the display turns on (about three seconds).
 
 You can now use the `fastboot` command to work with the device.
 
@@ -43,7 +43,7 @@ Method 1: Boot into the Bootloader and execute the "RECOVERY" entry. Once the Ub
 
 Method 2: To access the Bootloader Menu using an attached computer, while the device is powered on:
 
-* Make sure the phone is in developer mode
+* Make sure the phone is in [developer mode]({% post_url 2015-05-08-hacking-ubuntu-touch-part-4-developer-mode-and-ADB %})
 * Make sure `adb devices` lists the device
 * Run `adb reboot recovery`
 * Once the Ubuntu circle shows up, press the VOLUME UP button
