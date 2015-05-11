@@ -149,7 +149,7 @@ Device Descriptor:
   bcdDevice            2.16
   iManufacturer           2 BQ
   iProduct                3 Aquaris_E4.5
-  iSerial                 4 JU002504
+  iSerial                 4 <removed>
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
