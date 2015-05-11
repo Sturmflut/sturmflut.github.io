@@ -5,6 +5,9 @@ date:   2015-05-04 21:00:00
 categories: Ubuntu bq
 ---
 
+**UPDATE 11.05.2015: Found a third way of getting into Fastboot mode.**
+
+
 ## Bootloader
 
 To access the Bootloader Menu using the device alone, do the following:
@@ -27,9 +30,11 @@ Method 2: To access the Bootloader Menu using an attached computer, while the de
 * Run `adb reboot bootloader`
 * Make sure `fastboot devices` lists the device
 
+Method 3: Turn the device off and then press all three keys (POWER, VOLUME UP and VOLUME DOWN) until the display turns on (about three seconds).
+
 You can now use the `fastboot` command to work with the device.
 
-To exit FASTBOOT mode, either press the POWER and VOLUME UP buttons until the phone turns off or execute `fastboot reboot`
+To exit FASTBOOT mode, either press the POWER and VOLUME UP buttons until the phone turns off, or execute `fastboot reboot` if the phone still responds via USB.
 
 
 ## Recovery
