@@ -5,9 +5,11 @@ date:   2015-05-08 20:30:00
 categories: Ubuntu Touch
 ---
 
-*NOTE: This is a continuation of the [series]({% post_url 2015-05-07-hacking-ubuntu-touch-index %}), but it does not rely on the previous articles. Thanks to Oliver Grawert for pointing out the bug report about the banner string.*
+*NOTE: This is a continuation of the [series]({% post_url 2015-05-07-hacking-ubuntu-touch-index %}), but it does not rely on the previous articles. Thanks to Oliver Grawert for pointing out the bug report regarding the banner string.*
 
-*NOTE: Most information in this article was reverse-engineered by reading the original source code and using strace, tcpdump and WireShark. This is neither a reference nor complete.*
+*NOTE: Most information in this article was reverse-engineered reading the original source code and using strace, tcpdump and WireShark. This is neither a reference nor complete.*
+
+*UPDATE 15.05.2015: I decided that the `serialno` field in the `CONNECT` message cannot be optional.*
 
 
 So you want to become a power user and do something with your phone that is not (yet) possible, or you are an application developer who wants to test his app on the real device. Some of you may try to debug an issue at the core of the device, and a few - like me - want to completely hack the system. Great idea!
@@ -86,7 +88,7 @@ If something unexpected happens, like the reception of a garbled message, an unk
 
 There are currently six commands defined, all in the form `COMMAND(arg0, arg1, payload)`, with the payload usually being a string.
 
-`CONNECT(version, maxdata, "system-identity-string")` is used to tell a remote system that the sender speaks the ADB protocol and is ready. `version` specifies the maximum protocol version the sender understands, `maxdata` is the maximum message lenght it will accept, and the payload is supposed to be an identifier string in the format `<systemtype>:<serialno>:<banner>`. The `systemtype` value is either "bootloader" if the sender is in the Bootloader menu, "device" if the sender has started the Daemon normally or "host" if the sender is a Server. `serialno` and `banner` are optional and may contain additional device data, e.g. the `banner` value on a Nexus 4 is `device::ro.product.name=occam;ro.product.model=Nexus 4;ro.product.device=mako`. On the bq Aquaris E4.5 Ubuntu Edition it's currently exactly the same value because of bug [1297927][launchpad-bug-1297927].
+`CONNECT(version, maxdata, "system-identity-string")` is used to tell a remote system that the sender speaks the ADB protocol and is ready. `version` specifies the maximum protocol version the sender understands, `maxdata` is the maximum message lenght it will accept, and the payload is supposed to be an identifier string in the format `<systemtype>:<serialno>:<banner>`. The `systemtype` value is either "bootloader" if the sender is in the Bootloader menu, "device" if the sender has started the Daemon normally, or "host" if the sender is a Server. `serialno` is mandatory (it is used to identify the device if more than one is present), `banner` is optional and may contain additional device data, e.g. the `banner` value on a Nexus 4 is `device::ro.product.name=occam;ro.product.model=Nexus 4;ro.product.device=mako`. On the bq Aquaris E4.5 Ubuntu Edition it's currently exactly the same value because of bug [1297927][launchpad-bug-1297927].
 
 Both sides will send a CONNECT message to the other end when the underlying connection is first establised, e.g. when the USB cable is connected and both sides run their respecitve processes.
 
