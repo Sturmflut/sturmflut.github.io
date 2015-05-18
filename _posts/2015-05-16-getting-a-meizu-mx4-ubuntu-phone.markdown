@@ -15,8 +15,6 @@ But most of all I want exact knowledge instead of hearsay. If something goes wro
 
 About a year ago I started to contribute to Ubuntu Touch in various ways. I became an "Ubuntu Pioneer" for uploading one of the first apps to the App Store, I started hanging around on the IRC channel, I got a bq phone during the second flash sale, and at some point I started this blog to share my musings. Whenever I felt like something I knew could be useful to others I wrote it down, and when I realised that I didn't know enough about the topic I took my phone and started poking at things until everything was clear. This resulted in the ongoing ["Hacking Ubuntu Touch"]({% post_url 2015-05-07-hacking-ubuntu-touch-index %}) series and a couple of bug reports.
 
-Two days ago I was contacted by [Canonical][canonical] and asked if I wanted to be among the first people in the world to receive a Meizu MX4 Ubuntu Edition phone. Apparently there was more than one person at Canonical who called my name when asked, and I am surprised, flattered and deeply honored to even make the list.
-
-I already have some ideas for a series of articles on the phone once it is on my desk. Stay tuned.
+I will be among the first to get an MX4, and already have some ideas for a series of articles on the phone once it is on my desk. Stay tuned.
 
 [canonical]: http://www.canonical.com/
