@@ -62,7 +62,7 @@ Support for more filetypes, like OpenDocument, seems to be planned.
 
 This BitTorrent downloader has been in the store for quite a while. It supports Magnet links and has a built-in search frontend for the YIFY and Kickass Torrents websites.
 
-The "good" news: It works perfect.y
+The "good" news: It works perfectly.
 
 The "bad" news: It can't run in the background because of the App Lifecycle, and it doesn't use the Content Hub, so all downloads go to the hidden app folder.
 
