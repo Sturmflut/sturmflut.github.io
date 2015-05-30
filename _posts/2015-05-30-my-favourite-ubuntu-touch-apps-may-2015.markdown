@@ -96,7 +96,7 @@ As one of the reviewers says: "The best financial advice is from monocle wearing
 ![GPS Navigation]({{site.url}}/images/2015-05-top-ubuntu-touch-apps/gpsnavigation.jpg)
 
 
-The bq Aquaris E4.5 Ubuntu Edition comes with a turn-by-turn GPS navigation app based on Nokia HERE Maps, but all other devices don't. So Marcos Costales combined a lot of great things and into one app: free, worldwide, online, OpenStreetMap-based turn-by-turn navigation with all the features you would expect, like voice output. The version number is at 0.2, but the app already looks incredibly polished and works as expected for many people.
+The bq Aquaris E4.5 Ubuntu Edition comes with a turn-by-turn GPS navigation app based on Nokia HERE Maps, but all other devices don't. So Marcos Costales combined a lot of great things and put them into one app: free, worldwide, online, OpenStreetMap-based turn-by-turn navigation with all the features you would expect, like voice output. The version number is at 0.2, but the app already looks incredibly polished and works as expected for many people.
 
 
 
@@ -106,7 +106,7 @@ The bq Aquaris E4.5 Ubuntu Edition comes with a turn-by-turn GPS navigation app 
 ![Level]({{site.url}}/images/2015-05-top-ubuntu-touch-apps/level.jpg)
 
 
-I've always suspected that this picture, and many other things in my apartment, are not level. Now I know.
+I've always suspected that this picture, and many other things in my apartment, are not level. Now I know for sure.
 
 
 
@@ -126,7 +126,7 @@ This is one of the core apps, and it is actually very, very good. Support for mo
 ![Network Scanner]({{site.url}}/images/2015-05-top-ubuntu-touch-apps/networkscanner.jpg)
 
 
-One of the apps on my "we can't build this yet because of restrictions" list was Network Scanner. Then Michael Zanetti just went and not only built it before me, he even built it around `nmap`. Michael is still my hero, but for obvious reasons I also have to hate him a little.
+One of the apps on my "we can't build this yet because of restrictions" list was a Network Scanner. Then Michael Zanetti just went and not only built it before me, he even built it around `nmap`. Michael is still my hero, but for obvious reasons I now also have to hate him a little.
 
 
 
@@ -157,7 +157,7 @@ One of the most important features I need in a smartphone is a proper offline RS
 
 ![Socket World]({{site.url}}/images/2015-05-top-ubuntu-touch-apps/socketworld.jpg)
 
-I travel quite a lot and can never remember which power adapters to bring with, so Socket World comes in very handy.
+I travel quite a lot and can never remember which power adapters to bring with me, so Socket World comes in very handy.
 
 This app is so polished (it even has an Intro wizard!), I think it sets the bar for all future single-purpose database apps.
 
@@ -182,7 +182,7 @@ Tagger was one of the first native apps in the store and does exactly what it ha
 
 I've already been using Telegram on Android before I got an Ubuntu phone, so changing over was no problem. There are some bugs and sometimes the app is very slow, but I hear many fixes have already landed.
 
-The most "problematic" point is that the app does not support the new Telegram Stickers, and everybody and their mother keeps sending those things :)
+The most "problematic" point is that the app does not support the new Telegram Stickers, and everybody and their mother keeps sending me those things :)
 
 
 
@@ -202,7 +202,7 @@ We all need timers for various things, and this app does exactly what it says. I
 ![uRadio]({{site.url}}/images/2015-05-top-ubuntu-touch-apps/uradio.jpg)
 
 
-For quite some time people have asked about a general-purpose online radio streaming app that would keep playing if put in the background. uRadio can do that because it uses the Media Hub to playback online streams. The user interface is simple, but the settings dialogue is a bit complicated for my taste. Also it comes with a list of just five preset stations, no import and no search functions, so one has to fiddle around quite a bit until all the stations one wants to listen to have been manually added.
+For quite some time people have asked about a general-purpose online radio streaming app that would keep playing if put in the background. uRadio can do that because it uses the Media Hub to playback online streams. The user interface is simple, but the settings dialogue is a bit too complicated for my taste. Also it comes with a list of just five preset stations, no import and no search functions, so one has to fiddle around quite a bit until all the stations one wants to listen to have been manually added.
 
 There are some other online radio apps in the store, but they are limited to specific providers and/or stations.
 
