@@ -48,7 +48,7 @@ I get a lot of e-mails every day and Dekko is the only e-mail client in the stor
 ![Document Viewer]({{site.url}}/images/2015-05-top-ubuntu-touch-apps/documentviewer.jpg)
 
 
-I remember when I had to use PdfjsViewer to view my "Linux Voice" issues, and it was so slow that I could actually see how every single item on the screen was rendered. But now the Document Viewer from the Ubuntu Core App Developers has been improved so much that I actually use it all the time. It recently got support for SD cards and renders PDF documents through a native library, on all CPU cores at once. It renders my latests Linux Voice issue PDF so fast that the bq Aquaris E4.5 can actually keep up with one of my laptops.
+I remember when I had to use PdfjsViewer to view my "Linux Voice" issues, and it was so slow that I could actually see how every single item on the screen was rendered. But now the Document Viewer from the Ubuntu Core App Developers has been improved so much that I actually use it all the time. It recently got support for SD cards and renders PDF documents through a native library, on all CPU cores at once. It renders my latests Linux Voice PDF issue so fast that the bq Aquaris E4.5 can actually keep up with one of my laptops.
 
 Support for more filetypes, like OpenDocument, seems to be planned.
 
