@@ -25,3 +25,6 @@ I've written a series on the internals of Ubuntu Touch and how to hack the bq Aq
 * [Hacking Ubuntu Touch, Part 5: adb shell vs. phablet-shell]({% post_url 2015-05-08-hacking-ubuntu-touch-part-5-adb-shell-vs-phablet-shell %})
 
 * [Hacking Ubuntu Touch, Part 6: Logfiles]({% post_url 2015-05-15-hacking-ubuntu-touch-part-6-logfiles %})
+
+
+* [Hacking the bq, Part 3: Supported media plugins and codecs]({% post_url 2015-05-31-hacking-the-bq-part-3-supported-media-plugins-and-codecs %})
