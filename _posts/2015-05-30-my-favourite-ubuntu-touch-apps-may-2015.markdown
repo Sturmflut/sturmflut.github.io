@@ -118,6 +118,8 @@ I've always suspected that this picture, and many other things in my apartment, 
 
 This is one of the core apps, and it is actually very, very good. Support for more audio formats (e.g. FLAC) would be nice though.
 
+*UPDATE: This was entirely my fault, it plays back FLAC just fine and supports a lot of other codecs too. Apologies to Andrew Hayzen :-/*
+
 
 
 ## Network Scanner
