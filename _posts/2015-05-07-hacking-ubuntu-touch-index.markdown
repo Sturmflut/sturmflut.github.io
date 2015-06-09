@@ -28,3 +28,6 @@ I've written a series on the internals of Ubuntu Touch and how to hack the bq Aq
 
 
 * [Hacking the bq, Part 3: Supported media plugins and codecs]({% post_url 2015-05-31-hacking-the-bq-part-3-supported-media-plugins-and-codecs %})
+
+
+* [Hacking Ubuntu Touch, Part 7: System and process monitoring tools (part 1)]({% post_url 2015-06-08-hacking-ubuntu-touch-part-7-system-and-process-monitoring-tools-part-1 %})
