@@ -7,11 +7,11 @@ categories: Ubuntu Touch
 
 Exactly eight years ago I decided to visit every member state of the European Union, because how can you talk about the world if you don't even really know your friends and neighbors? Over the first three years I didn't make much progress, but after a few years I ended up extendeding my goal to the whole world, with the intention of visiting as many different countries as possible in my lifetime.
 
-I only count "actual" cultural visits to internationally recognized countries, so no transits, no business trips and no autonomous regions. A visit usually only counts if it inlvolved a minimum of two over-night stays, with some minor exceptions (like the Holy See).
+I only count "actual" cultural visits to internationally recognized countries, so no transits, no business trips and no autonomous regions. A visit usually only counts if it involved a minimum of two over-night stays, with some minor exceptions (like the Holy See).
 
 ![Visited countries]({{site.url}}/images/a-dream-in-numbers/countries.png)
 
-Today I hit quite a milestone by visiting to country number 40, Luxembourg, so it's time to look at some statistics. Over the last ten years I've
+Today I hit quite a milestone by visiting country number 40, Luxembourg, so it's time to look at some statistics. Over the last eight years I've
 
 * spent a total of 583 days abroad
 
@@ -31,7 +31,7 @@ Today I hit quite a milestone by visiting to country number 40, Luxembourg, so i
 
 Some highlights:
 
-* I became a certified scuba diver two years ago and have since spent 38 days diving abroad, for a total of 44 hours under water.
+* I became a certified scuba diver two years ago and have since spent 38 days diving abroad, for a total of 44 hours underwater.
 
 * I did one of the highest tandem skydives (4500 meters), the highest bungee jump in the world (233 meters, Macau), and some of the deepest recreational wreck dives (40 meters).
 
