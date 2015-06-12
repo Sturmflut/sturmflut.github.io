@@ -21,7 +21,7 @@ Ubuntu devices actually support several application types, but only two of them 
 
 * "Native" apps are built using QML and/or Qt or some other "real" programming language/environment. Native apps run offline (maybe accessing online services on demand), are extremely powerful and integrate perfectly with the rest of the system - but you can easily get the impression that building a native app is complex and "hard".
 
-* Webapps are nothing more than a kind of "bookmark" to a website. They just call the `webapp-container` helper binary, which is actually a full web browser without most of the usual UI elements. It loads the specified URL in fullscreen mode and gives the impression of a "native" app - until your network connection gets wobbly and/or you realise that webapps are a bit slow, don't integrate as well with the rest of the system as native apps. Building webapps is so easy, the process [has even been automated][webapp-generator].
+* Webapps are nothing more than a kind of "bookmark" to a website. They just call the `webapp-container` helper binary, which is actually a full web browser without most of the usual UI elements. It loads the specified URL in fullscreen mode and gives the impression of a "native" app - until your network connection gets wobbly and/or you realise that webapps are a bit slow and don't integrate as well with the rest of the system as native apps. Building webapps is so easy, the process [has even been automated][webapp-generator].
 
 This separation is so pronounced that even [uAppExplorer][appexplorer] offers different categories for both, because everybody knows that you want a real app and not just a webapp, right?
 
