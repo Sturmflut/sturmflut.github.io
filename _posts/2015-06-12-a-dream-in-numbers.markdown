@@ -5,7 +5,7 @@ date:   2015-06-12 12:00:00
 categories: Ubuntu Touch
 ---
 
-Exactly eight years ago I decided to visit every member state of the European Union, because how can you talk about the world if you don't even really know your friends and neighbors? Over the first three years I didn't make much progress because, but after a few years I ended up extendeding my goal to the whole world, with the intention of visiting as many different countries as possible in my lifetime.
+Exactly eight years ago I decided to visit every member state of the European Union, because how can you talk about the world if you don't even really know your friends and neighbors? Over the first three years I didn't make much progress, but after a few years I ended up extendeding my goal to the whole world, with the intention of visiting as many different countries as possible in my lifetime.
 
 I only count "actual" cultural visits to internationally recognized countries, so no transits, no business trips and no autonomous regions. A visit usually only counts if it inlvolved a minimum of two over-night stays, with some minor exceptions (like the Holy See).
 
