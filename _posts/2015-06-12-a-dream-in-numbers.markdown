@@ -19,13 +19,13 @@ Today I hit quite a milestone by visiting to country number 40, Luxembourg, so i
 
 * traveled approximately (actually quite exactly) 229.000 kilometres by air, 50.000 kilometres by train, 44.000 kilometres by car/bus and 2500 kilometres by sea, for a total of more than 325.000 kilometres
 
-* been on 94 international flights, 25 of them in 2013 alone and 14 in 2015 already
+* been on 94 international flights, 25 of them in 2013 alone and 14 in 2015 already, the shortest just 192 (Phu Quoc - Can Tho) and the longest around 10.200 kilometres (Frankfurt - Singapore)
 
 * spent approximately 318 hours (more than 13 days) in-flight
 
 * used 60 different airports
 
-* used Frankfurt Airport 25 times
+* started or landed in Frankfurt Airport 25 times
 
 * actually spent 83 days (I had to check twice!) living on boats
 
@@ -35,5 +35,4 @@ Some highlights:
 
 * I did one of the highest tandem skydives (4500 meters), the highest bungee jump in the world (233 meters, Macau), and some of the deepest recreational wreck dives (40 meters).
 
-* about 390 gigabytes of pictures and videos...
-
+* Came back with ~390 gigabytes of pictures and videos...
