@@ -63,14 +63,14 @@ Even though the MX4 is offered in white and gold colors within china, Ubuntu Ins
 
 ## Performance
 
-It is currently not possible to do a fair comparison between the threee devices because there are no reliable benchmarks available for both Android and Ubuntu. Also a better raw CPU performance doesn't necessarily translate into a better user experience: both operating systems make extensive use of the GPU to accelearate their user interfaces.
+It is currently not possible to do a fair comparison between the three devices because there are no reliable benchmarks available for both Android and Ubuntu. Also a higher CPU performance doesn't necessarily translate into a better user experience: both operating systems make extensive use of the GPU to accelerate their user interfaces.
 
 It can be said that the MT6595 chipset used in the MX4 plays in a different league than the chipsets of the Aquaris E4.5 and the Nexus 5: Not only can it switch between four slow, but energy-efficient Cortex-A7 cores and four high-performance Cortex-A17 cores on demand, also the PowerVR GPU is a lot faster than the Mali-400 unit in the Aquaris E4.5. It has to be noted though that the MX4 display has more than four times as many pixels as the Aquaris E4.5, so the theoretical performance win might translate into a loss at the end because a much higher number of pixels has to be rendered.
 
 
 ## Internal and external storage
 
-While the MX4 is generally available with up to 64 GB of internatl storage, the Ubuntu Edition models are currently only shipped with 16 GB. Ubuntu reserves about 4 GB for itself, so the user ends up with 12 GB of usable storage and not SD card slot. This is definitely not enough for me, I bought the 32 GB Nexus 5 model and regularly have to remove stuff because my music library, pictures, offline navigation maps etc. fill up the storage.
+While the MX4 is generally available with up to 64 GB of internal storage, the Ubuntu Edition models are currently only shipped with 16 GB. Ubuntu reserves about 4 GB for itself, so the user ends up with 12 GB of usable storage and not SD card slot. This is definitely not enough for me, I bought the 32 GB Nexus 5 model and regularly have to remove stuff because my music library, pictures, offline navigation maps etc. fill up the storage.
 
 It also leads to the following, a bit bizarre situation: I was able to upgrade the "low-end" Aquaris E4.5 to a total of 72 GB with a medium-priced 64 GB microSD card, but the "high-end" MX4 offers no such possibility.
 
