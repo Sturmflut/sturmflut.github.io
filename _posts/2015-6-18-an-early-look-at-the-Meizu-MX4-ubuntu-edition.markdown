@@ -65,7 +65,7 @@ Even though the MX4 is offered in white and gold colors within china, Ubuntu Ins
 
 It is currently not possible to do a fair comparison between the threee devices because there are no reliable benchmarks available for both Android and Ubuntu. Also a better raw CPU performance doesn't necessarily translate into a better user experience: both operating systems make extensive use of the GPU to accelearate their user interfaces.
 
-It can be said that the MT6595 chipset used in the MX4 plays on a different level than the chipsets of the Aquaris E4.5 and the Nexus 5: Not only can it switch between four slow, but energy-efficient Cortex-A7 cores and four high-performance Cortex-A17 cores on demand, also the PowerVR GPU is a lot faster than the Mali-400 unit in the Aquaris E4.5. It has to be noted though that the MX4 display has more than four times as many pixels as the Aquaris E4.5, so the theoretical performance win might translate into a loss at the end because a much higher number of pixels has to be rendered.
+It can be said that the MT6595 chipset used in the MX4 plays in a different league than the chipsets of the Aquaris E4.5 and the Nexus 5: Not only can it switch between four slow, but energy-efficient Cortex-A7 cores and four high-performance Cortex-A17 cores on demand, also the PowerVR GPU is a lot faster than the Mali-400 unit in the Aquaris E4.5. It has to be noted though that the MX4 display has more than four times as many pixels as the Aquaris E4.5, so the theoretical performance win might translate into a loss at the end because a much higher number of pixels has to be rendered.
 
 
 ## Internal and external storage
@@ -83,8 +83,6 @@ The MX4 feels *huge* in comparison to the other phones, even though the display 
 ## Camera
 
 Meizu's marketing strategy has been focusing on the upper-class camera built into the MX4 for a while. Social media is full with "professional-grade" pictures sent in by MX4 users.
-
-Meizu bewirbt seit Monaten die mit 20.7 Megapixeln sehr hoch aufgelöste Kamera des MX4. Immer wieder wurden beispielsweise von Nutzern eingesandte Bilder, welche auf den ersten Blick mit professionellen Aufnahmen vergleichbar sein sollen, besonders prominent hervorgehoben. Die Bildqualität ist im Vergleich zum Aquaris E4.5 wesentlich schärfer. Dies machen die aufgeführten Bilder deutlich.
 
 
 ![Water]({{site.url}}/images/meizu-mx4-insider/meizumx4_photo1.JPG)
