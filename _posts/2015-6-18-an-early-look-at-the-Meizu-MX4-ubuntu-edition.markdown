@@ -97,7 +97,7 @@ The quality is *much* higher than that of the Aquaris E4.5 and the Nexus 5.
 
 ## Mobile radio
 
-People kept asking why the Aquaris E4.5 doesn't come with a 4G/LTE radio, so the MX4 supports LTE Cat 4 at up to 150 MBit/s downstream and up to 50 MBit/s upstream. I tested the device in the joint 4G network of german providers O2 and e-Plus, and it worked out of the box. During a short speedtest the phone hit 80 MBit/s.
+People kept asking why the Aquaris E4.5 doesn't come with a 4G/LTE radio, so the MX4 supports LTE Cat 4 at up to 150 MBit/s downstream and up to 50 MBit/s upstream. I tested the device in the joint 4G network of german providers O2 and e-Plus, and it worked out of the box. During a short speedtest the phone easily hit 80 MBit/s.
 
 In contrast to the Aquaris E4.5 and the Nexus 5, the body of the MX4 isn't fully closed. So you don't put your SIM card(s) into a small sleigh and slide it into the side of the device, you remove the back cover and put the SIM into a small, microSD-card like slot.
 
