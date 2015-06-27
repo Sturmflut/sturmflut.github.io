@@ -418,7 +418,7 @@ Missing:
 
 - E-Learning for languages (Babbel, busuu, duolingo etc.) and other areas. (There is [Lang][lang-appexplorer].)
 
-- More Fitness tracker apps like FitApp, Runtastic etc.
+- More Fitness tracker apps like Endomondo, FitApp, Runtastic etc.
 
 - FlightRadar24
 
