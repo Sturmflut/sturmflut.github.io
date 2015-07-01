@@ -10,7 +10,7 @@ categories: Ubuntu
 
 Canonical has released OTA-4 by now, bq released a second phone, a shiny new Meizu phone is being sold in europe, we are already waiting for OTA-5 and Convergence is slowly coming together. Woohoo! If you are thinking about developing a new app or scope, there has never been a better time than now!
 
-I am quite happy with the format I came up with back in May. Entries marked with the (*UPDATED*) have moved since the last list. Entries marked with the (*NEW*) tag have been added since the last list, but that does NOT necessarily mean that the app was not in the store before!
+I am quite happy with the format I came up with back in May. Entries marked with the (*UPDATED*) tag have moved since the last list. Entries marked with the (*NEW*) tag have been added since the last list, but that does NOT necessarily mean that the app was not in the store before!
 
 
 
