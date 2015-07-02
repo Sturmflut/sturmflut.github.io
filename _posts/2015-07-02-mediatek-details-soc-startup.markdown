@@ -39,11 +39,14 @@ After the CPU has initialized itself, the internal SRAM controller pushes a jump
 
 The Boot ROM contains a small piece of 32-Bit ARMv7 machine code that performs the following steps:
 
-1. Initialise UART1 (the first serial port) to 8 bit, no parity, 1 stopbit and 9600/19200 baud (depending on the clock)
+1. Initialise UART1 (the first serial port) to 8 bit, no parity, 1 stopbit and 9600/19200 baud (depending on the clock).
 
-2. Wait for a `Start` command for 150ms. If no START command is received, jump to address 0 of the attached flash and start execution.
+2. Initialise the internal flash storage.
 
-3. Interpret commands sent by the host until a JUMP is issued to continue execution elsewhere.
+3. Wait for a `Start` command for 150ms. If no START command is received, load the Preloader into the On-Chip SRAM and execute it.
+
+4. Interpret commands sent by the host, until a JUMP is issued to continue execution elsewhere. This is usually used to download a Preloader into the flash and then boot it.
+
 
 The Boot ROM supports the following commands:
 
