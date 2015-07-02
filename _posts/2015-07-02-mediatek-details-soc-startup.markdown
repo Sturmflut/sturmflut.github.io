@@ -69,8 +69,12 @@ I don't know if UART1 is connected to the PCB on the Aquaris E4.5, it might be c
 
 In the next article I will talk about the Preloader.
 
+If you know better and/or something has changed, please find me on Launchpad.net or the Freenode IRC and do get in contact!
+
 
 ## References
+
+- [Thunder-Kernel][thunderkernel]
 
 - [Boot ROM Design][bootrom]
 
@@ -78,6 +82,8 @@ In the next article I will talk about the Preloader.
 
 
 
+
+[thunderkernel]: https://github.com/suribi/Thunder-Kernel
 
 [bootrom]: http://read.pudn.com/downloads119/sourcecode/comm/mtk/507390/System_and_Debug/System_Service/BROM_Design_V2.0.0.pdf
 
