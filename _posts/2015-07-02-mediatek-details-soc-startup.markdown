@@ -35,9 +35,9 @@ Taken from the [MT6575 datasheet][mt6575-datasheet]:
 
 ## Boot ROM
 
-After the CPU has initialized itself, the internal SRAM controller pushes a jump instruction to address 0xFFFF0000. This is the internal [Boot ROM][bootrom] every chip comes with, it can't be changed.
+After the CPU has initialized itself, the internal SRAM controller pushes a jump instruction to address 0xFFFF0000. This is the [Boot ROM][bootrom] every chip comes with, the contents can't be changed.
 
-The Internal Boot ROM contains a small piece of 32-Bit ARMv7 machine code that performs the following steps:
+The Boot ROM contains a small piece of 32-Bit ARMv7 machine code that performs the following steps:
 
 1. Initialise UART1 (the first serial port) to 8 bit, no parity, 1 stopbit and 9600/19200 baud (depending on the clock)
 
@@ -47,11 +47,11 @@ The Internal Boot ROM contains a small piece of 32-Bit ARMv7 machine code that p
 
 The Boot ROM supports the following commands:
 
-* `Start`: Tells the Boot ROM that there is an external host connected and keeps it from booting from flash.
+* `Start`: Signals that there is an external host connected and keeps the Boot ROM from booting from flash.
 
 * `Version`: Returns the security version of the Boot ROM, `0xFF` if it doesn't support security.
 
-* `Serial Link`: Performs some kind of authentication to verify that the tool used by the host is genuine. If the Boot ROM supports security, the availability of other commands is restricted until this command is completed.
+* `Serial Link`: Performs some kind of authentication to verify that the tool used by the host is "genuine". If the Boot ROM supports security, the availability of other commands is restricted until this command is completed.
 
 * `Write` and `32 Bit Write`: Write a single 16 or 32 bit value to a 32 bit memory address.
 
