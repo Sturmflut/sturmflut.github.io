@@ -31,3 +31,6 @@ I've written a series on the internals of Ubuntu Touch and how to hack the bq Aq
 
 
 * [Hacking Ubuntu Touch, Part 7: System and process monitoring tools (part 1)]({% post_url 2015-06-08-hacking-ubuntu-touch-part-7-system-and-process-monitoring-tools-part-1 %})
+
+
+* [Hacking the bq, Part 4: Building and booting a kernel]({% post_url 2015-07-02-hacking-the-bq-part-4-building-and-booting-a-kernel %})
