@@ -114,17 +114,4 @@ $ abootimg -u boot.img -c "cmdline=debug"
 Now boot the image as shown above.
 
 
-If you know better and/or something has changed, please find me on Launchpad.net and do get in contact!
-
-
-
-
-
-
-
-
-
-
-
-
-
+If you know better and/or something has changed, please find me on Launchpad.net or the Freenode IRC and do get in contact!
