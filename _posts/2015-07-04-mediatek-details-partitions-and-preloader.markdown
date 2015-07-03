@@ -6,7 +6,9 @@ categories: MediaTek
 ---
 
 
-*NOTE: This is a continuation of the [previous article]({% post_url 2015-05-04-hacking-the-bq-part-1-bootloader-fastboot-recovery %}) in the series. The information was obtained from various sources and through reverse engineering, don't take it as a reference!*
+*NOTE: This is a continuation of the [previous article]({% post_url 2015-07-02-mediatek-details-soc-startup %}) in the series. The information was obtained from various sources and through reverse engineering, don't take it as a reference!*
+
+*UPDATE 03.07.2015: Add Download Agent references.*
 
 
 After the Boot ROM has completed the initialization of the core hardware, it loads the first block from the eMMC flash into the On-chip SRAM and starts execution. Usually this would be the location of the operating system bootloader firmware, but on MediaTek SoCs it usually isn't. There's an intermediate step: the Preloader. It is a piece of software that abstracts a bit between the platform and the actual bootloader, and it offers some additional features like the ability to boot from either MMC or NAND Flash or to read/write various parts of the flash via USB.
@@ -54,7 +56,7 @@ The Preloader relies on some peripherials, so it has to initialize them. This is
 
 There is something special here: after the flash storage has been initialised, the Preloader offers an early "emergency download" mode. The manufacturer can define a hardware key, which, when pressed during Preloader platform init, immediately reboots back into the Boot ROM and waits for a download.
 
-At this point the Preloader also records why the system was booted:
+At this point the Preloader also records the reason why the system was booted:
 
 
 {% highlight text %}
@@ -166,8 +168,8 @@ After successful detection, the tool can send the special `Start` command sequen
 | `CMD_GET_BL_VER` | 0xfe | Get Preloader version (seems to be always "1")
 | `CMD_GET_HW_SW_VER` | 0xfc | Return hardware subcode, hardware version and software version
 | `CMD_GET_HW_CODE` | 0xfd | Return hardware code and status
-| `CMD_SEND_DA` | 0xd7 | Directly write a chunk of (optionally signed) data into SoC memory
-| `CMD_JUMP_DA` | 0xd5 | Set boot mode to `DOWNLOAD_BOOT` and continue execution at the given memory address
+| `CMD_SEND_DA` | 0xd7 | Send a special "Download Agent" binary to the SoC, signed with a key.
+| `CMD_JUMP_DA` | 0xd5 | Set boot mode to `DOWNLOAD_BOOT` and start execution of the Download Agent sent in the previous step.
 | `CMD_GET_TARGET_CONFIG` | 0xd8 | Get supported Preloader configuration flags
 | `CMD_READ16` | 0xa2 | Read data from the SoC memory (16 bit length parameter)
 | `CMD_WRITE16` | 0xd2 | Write data into SoC memory (16 bit length parameter)
@@ -178,6 +180,7 @@ After successful detection, the tool can send the special `Start` command sequen
 | `CMD_PWR_READ16` | 0xc6 | Read 16 bits of data from the power management controller interface memory
 | `CMD_PWR_WRITE16` | 0xc7 | Write 16 bits of data to the power management controller interface memory
 
+The Download Agent step is necessary because this way the Flash Tool can always send a current version for the exact hardware version that's being used.
 
 The UART has no possibility to detect if the physical line is powered, so it just sends the string `READY` and hopes that it gets an eight byte token back. If it does, it assumes that the tool is present.
 
@@ -283,9 +286,13 @@ If you know better and/or something has changed, please find me on Launchpad.net
 
 - [MTK6577 Android Start ---- pre-loader][android-start-preloader-chinese] (in chinese)
 
+- [Introduction of MTK Tools][mtk-tools]
+
 
 
 
 [thunderkernel]: https://github.com/suribi/Thunder-Kernel
 
 [android-start-preloader-chinese]: http://blog.csdn.net/loongembedded/article/details/38143289
+
+[mtk-tools]: http://wenku.baidu.com/view/d44d5cd9ad51f01dc281f129.html
