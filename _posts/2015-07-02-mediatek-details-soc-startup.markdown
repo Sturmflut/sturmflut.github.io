@@ -80,6 +80,7 @@ If you know better and/or something has changed, please find me on Launchpad.net
 
 - [MT6575 datasheet][mt6575-datasheet]
 
+- [Introduction of MTK Tools][mtk-tools]
 
 
 
@@ -88,3 +89,5 @@ If you know better and/or something has changed, please find me on Launchpad.net
 [bootrom]: http://read.pudn.com/downloads119/sourcecode/comm/mtk/507390/System_and_Debug/System_Service/BROM_Design_V2.0.0.pdf
 
 [mt6575-datasheet]: https://github.com/EnJens/MediaTek-documents/raw/master/MTK-Mediatek-Alps-Documents/MT6575%20HSPA%20Smartphone%20Application%20Processor%20Datasheet%200.91.pdf
+
+[mtk-tools]: http://wenku.baidu.com/view/d44d5cd9ad51f01dc281f129.html
