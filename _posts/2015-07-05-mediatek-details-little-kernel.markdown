@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mediatek details: Little Kernel"
+title:  "MediaTek details: Little Kernel"
 date:   2015-07-05 20:00:00
 categories: MediaTek
 ---

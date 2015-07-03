@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mediatek details: SoC startup"
+title:  "MediaTek details: SoC startup"
 date:   2015-07-02 20:00:00
 categories: MediaTek
 ---

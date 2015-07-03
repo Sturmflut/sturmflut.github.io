@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mediatek details: Partitions and Preloader"
+title:  "MediaTek details: Partitions and Preloader"
 date:   2015-07-04 20:00:00
 categories: MediaTek
 ---
