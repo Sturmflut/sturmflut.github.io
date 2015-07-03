@@ -35,3 +35,5 @@ I've written a series on the internals of Ubuntu Touch and how to hack the bq Aq
 * [Hacking the bq, Part 4: Building and booting a kernel]({% post_url 2015-07-02-hacking-the-bq-part-4-building-and-booting-a-kernel %})
 
 * [Mediatek details: Partitions and Preloader]({% post_url 2015-07-04-mediatek-details-partitions-and-preloader %})
+
+* [Mediatek details: Little Kernel]({% post_url 2015-07-05-mediatek-details-little-kernel %})
