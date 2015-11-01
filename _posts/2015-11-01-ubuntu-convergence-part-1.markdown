@@ -41,7 +41,7 @@ So turn off your phone, connect the adapter to the external display and boot the
 
 ![The lockscreen is still the one from the phone UI]({{site.url}}/images/ubuntu-convergence-part-1/external-phone-lockscreen.jpg)
 
-Now we know everything works fine and the phone drives the external display correctly. The phone will currently switch to desktop mode as soon as a mouse is connected, but your USB port is already occupied by the SlimPort adapter and the port cannot do SlimPort and USB data at the same time. So you really need an USB mouse and keyboard.
+Now we know everything works fine and the phone drives the external display correctly. The phone will currently switch to desktop mode as soon as a mouse is connected, but your USB port is already occupied by the SlimPort adapter and the port cannot do SlimPort and USB data at the same time. So you really need a Bluetooth mouse and keyboard.
 
 
 ## Set up the Bluetooth devices
