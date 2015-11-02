@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+All content on this blog is licensed CC-BY-SA. You can find the Markdown source code for all articles [here](https://github.com/Sturmflut/sturmflut.github.io).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Should you find an error in an article just send me a pull request. If you happen to translate one of my articles into another language, please ping me so I can reference it.
