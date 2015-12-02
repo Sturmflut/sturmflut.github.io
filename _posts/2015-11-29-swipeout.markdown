@@ -5,7 +5,7 @@ date:   2015-11-29 18:00:00
 categories: Ubuntu Games
 ---
 
-Simon Stürz, creator of "[Monster Wars][uappexplorer-monsterwars]" and UbuContest 2015 winner, just published a new game to the Ubuntu Store! It's called "Swipeout" and belongs to the popular group of "unblock puzzle games".
+Simon Stürz, creator of "[Monster Wars][uappexplorer-monsterwars]" and UbuContest 2015 winner, just published a new game to the Ubuntu Store! It's called "[Swipeout][swipeout-uappexplorer]" and belongs to the popular group of "unblock puzzle games".
 
 
 ![Swipeout]({{site.url}}/images/ubuntu-game-swipeout/main.png)
@@ -25,3 +25,4 @@ Swipeout also comes with a level creator!
 
 [uappexplorer-monsterwars]: https://uappexplorer.com/app/monsterwars.t-mon
 
+[swipeout-uappexplorer]: https://uappexplorer.com/app/swipeout.t-mon
