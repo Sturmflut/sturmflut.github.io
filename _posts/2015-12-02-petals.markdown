@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "New Ubuntu Game: Petals"
+date:   2015-12-02 13:00:00
+categories: Ubuntu Games
+---
+
+Thomas Perl released the source code for his [Petals][petals] game under the GPLv3 a couple of days ago. It's a puzzle game for one to four players, written in QML and was already available for various Blackberry and Nokia devices.
+
+![Petals]({{site.url}}/images/petals/screenshot1.png)
+
+The goal is to find three flowers that belong together: The petal color, shape and count and the core color have to be either the same or pairwise different for all 3 flowers.
+
+![Petals]({{site.url}}/images/petals/screenshot2.png)
+![Petals]({{site.url}}/images/petals/screenshot3.png)
+
+Porting the game to Ubuntu was a matter of about ten minutes, I just added the necessary "metadata" files and generated the images using the script provided. The game is now [available][uappexplorer-petals] from the Ubuntu store.
+
+
+[petals]: http://thp.io/2013/petals/
+
+[uappexplorer-petals]: https://uappexplorer.com/app/petals.sturmflut
