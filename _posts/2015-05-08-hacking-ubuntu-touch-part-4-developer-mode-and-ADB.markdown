@@ -97,7 +97,7 @@ Both sides will send a CONNECT message to the other end when the underlying conn
 `OPEN(local-id, 0, "destination")` informs the recipient that the sender wants to connect its local stream identified by `local-id` to the destination identified by the payload string. This sounds a bit complicated, so let's look at the possible destinations:
 
 * `tcp:<host>:<port>` connects to a TCP port, if `host` is omitted then localhost is used.
-* `udp:<host>:<port>` connects to an UDP port, if `host ` is omitted then localhost is used.
+* `udp:<host>:<port>` connects to an UDP port, if `host` is omitted then localhost is used.
 * `local-dgram:<identifier>` connects to a local datagram socket.
 * `local-stream:<identifier>` connects to a local stream socket.
 * `shell` starts a shell on the remote device, executes the command and connects STDIN and STDOUT of the started process to the stream.
