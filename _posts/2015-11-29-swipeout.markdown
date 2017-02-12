@@ -5,24 +5,6 @@ date:   2015-11-29 18:00:00
 categories: Ubuntu Games
 ---
 
-Simon Stürz, creator of "[Monster Wars][uappexplorer-monsterwars]" and UbuContest 2015 winner, just published a new game to the Ubuntu Store! It's called "[Swipeout][swipeout-uappexplorer]" and belongs to the popular group of "unblock puzzle games".
+This post has [moved][newurl].
 
-
-![Swipeout]({{site.url}}/images/ubuntu-game-swipeout/main.png)
-
-The game comes with a level pack offering a whopping 300 (!) levels across three difficulty levels.
-
-![Swipeout]({{site.url}}/images/ubuntu-game-swipeout/packs.png)
-![Swipeout]({{site.url}}/images/ubuntu-game-swipeout/levels.png)
-
-The goal of the game is to move the "player" element to the exit. Vertical elements can only be moved along the vertical axis, horizontal elements only along the horizontal axis. A secondary goal is to use as few moves as possible. For those of us who suck at puzzles there is an animated "Show the solution" mode...
-
-![Swipeout]({{site.url}}/images/ubuntu-game-swipeout/game.png)
-
-Swipeout also comes with a level creator!
-
-![Swipeout]({{site.url}}/images/ubuntu-game-swipeout/levelcreator.png)
-
-[uappexplorer-monsterwars]: https://uappexplorer.com/app/monsterwars.t-mon
-
-[swipeout-uappexplorer]: https://uappexplorer.com/app/swipeout.t-mon
+[newurl]: http://blog.lieberbiber.de/2015/11/29/new-ubuntu-game-swipeout/
