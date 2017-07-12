@@ -7,4 +7,4 @@ categories: Ubuntu
 
 This article has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/06/29/interesting-html5-foss-games/
+[newurl]: http://www.lieberbiber.de/2015/06/29/interesting-html5-foss-games/

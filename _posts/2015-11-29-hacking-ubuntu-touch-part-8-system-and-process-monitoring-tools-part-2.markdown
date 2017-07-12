@@ -8,5 +8,5 @@ categories: Ubuntu Touch
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/11/29/hacking-ubuntu-touch-part-8-system-and-process-monitoring-tools-part-2/
+[newurl]: http://www.lieberbiber.de/2015/11/29/hacking-ubuntu-touch-part-8-system-and-process-monitoring-tools-part-2/
 

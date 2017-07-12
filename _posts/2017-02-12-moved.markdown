@@ -7,4 +7,4 @@ categories: General
 
 This post has [moved][newurl] to a new location.
 
-[newurl]: http://blog.lieberbiber.de/
+[newurl]: http://www.lieberbiber.de/

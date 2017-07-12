@@ -7,4 +7,4 @@ categories: Ubuntu Touch
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/07/04/hacking-ubuntu-touch-part-8-fastboot/
+[newurl]: http://www.lieberbiber.de/2015/07/04/hacking-ubuntu-touch-part-8-fastboot/

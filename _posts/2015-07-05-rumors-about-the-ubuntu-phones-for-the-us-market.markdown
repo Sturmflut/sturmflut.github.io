@@ -7,4 +7,4 @@ categories: Ubuntu
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/07/05/rumors-about-the-ubuntu-phones-for-the-us-market/
+[newurl]: http://www.lieberbiber.de/2015/07/05/rumors-about-the-ubuntu-phones-for-the-us-market/

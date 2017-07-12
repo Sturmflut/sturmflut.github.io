@@ -7,4 +7,4 @@ categories: Ubuntu
 
 This article has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/06/27/ubuntu-appscope-wishlist-and-status-june-2015/ 
+[newurl]: http://www.lieberbiber.de/2015/06/27/ubuntu-appscope-wishlist-and-status-june-2015/ 

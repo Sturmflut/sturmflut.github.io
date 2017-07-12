@@ -7,4 +7,4 @@ categories: MediaTek
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/07/05/mediatek-details-little-kernel/
+[newurl]: http://www.lieberbiber.de/2015/07/05/mediatek-details-little-kernel/

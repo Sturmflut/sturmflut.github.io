@@ -7,4 +7,4 @@ categories: Ubuntu COnvergence
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/11/01/ubuntu-convergence-part-1-setting-it-up/
+[newurl]: http://www.lieberbiber.de/2015/11/01/ubuntu-convergence-part-1-setting-it-up/

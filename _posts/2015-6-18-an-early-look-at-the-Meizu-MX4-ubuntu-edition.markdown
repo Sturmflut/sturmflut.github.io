@@ -7,4 +7,4 @@ categories: Ubuntu Touch
 
 This article has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/06/18/an-early-look-at-the-meizu-mx4-ubuntu-edition/
+[newurl]: http://www.lieberbiber.de/2015/06/18/an-early-look-at-the-meizu-mx4-ubuntu-edition/

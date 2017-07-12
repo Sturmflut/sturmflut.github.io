@@ -6,4 +6,4 @@ categories: Ubuntu bq
 ---
 This article has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/07/02/hacking-the-bq-part-4-building-and-booting-a-kernel/ 
+[newurl]: http://www.lieberbiber.de/2015/07/02/hacking-the-bq-part-4-building-and-booting-a-kernel/ 

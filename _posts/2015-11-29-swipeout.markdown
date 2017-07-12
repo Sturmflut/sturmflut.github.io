@@ -7,4 +7,4 @@ categories: Ubuntu Games
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/11/29/new-ubuntu-game-swipeout/
+[newurl]: http://www.lieberbiber.de/2015/11/29/new-ubuntu-game-swipeout/

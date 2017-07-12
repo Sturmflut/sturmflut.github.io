@@ -7,4 +7,4 @@ categories: Ubuntu
 
 This post has [moved][newurl].
 
-[newurl]: http://blog.lieberbiber.de/2015/07/12/panda-madness/
+[newurl]: http://www.lieberbiber.de/2015/07/12/panda-madness/
